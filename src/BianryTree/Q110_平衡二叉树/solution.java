@@ -1,9 +1,14 @@
 package BianryTree.Q110_平衡二叉树;
 
+/*
+* 给定一个二叉树，判断它是否是高度平衡的二叉树。
+* */
+
 public class solution {
     public boolean isBalanced(TreeNode root) {
         return height(root) >= 0;
     }
+
     public int height(TreeNode root){
         if(root == null){
             return 0;
