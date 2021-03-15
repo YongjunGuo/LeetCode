@@ -23,7 +23,7 @@ public class solution {
     }
 
     public static void main(String args[]){
-        //int nums[] = {1, 1, 2，4，4,5,6};
+        //int nums[] = {1, 1, 2，4，4,5,6,6,7};
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入数组长度：");
         int nl = scanner.nextInt();
